@@ -1,11 +1,18 @@
 
+@media only screen and (max-width: 800px) {
+    .preview {
+        width: 375px;
+    }
+}
+
 .preview{
     display: flex;
     justify-content: center;
+    width: 1440px;
 }
 
 .text-class{
-
+   padding: 50px
 }
 
 h1 {
@@ -16,10 +23,14 @@ h1 {
 
 h2 {
     font-family: 'Fraunces', serif;
+    inline-size: 160px;
+    overflow-wrap: break-word;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
+    inline-size: 225px;
+    overflow-wrap: break-word;
 }
 
 .price {
