@@ -1,10 +1,18 @@
 .price {
-    
+    display: flex;
+    justify-content: center;
 }
 .current-price {
-
+    color: hsl(158, 36%, 37%);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 32px;
 }
 
 .former-price {
-    color: red; 
+ 
+    text-decoration: line-through;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
