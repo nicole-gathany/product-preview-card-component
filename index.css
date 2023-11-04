@@ -1,18 +1,31 @@
 .price {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .current-price {
-    color: hsl(158, 36%, 37%);
-    margin-right: 10px;
-    font-weight: 700;
-    font-size: 32px;
+  color: hsl(158, 36%, 37%);
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .former-price {
- 
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  height: 34px;
+  width: 150px;
+  border-radius: 11px;
+  border: none;
+}
