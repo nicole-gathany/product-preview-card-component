@@ -25,18 +25,21 @@ img {
 }
 
 h1 {
+    color: hsl(228, 12%, 48%);
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
     font-weight: 50;
 }
 
 h2 {
+    color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
     inline-size: 160px;
     overflow-wrap: break-word;
 }
 
 p {
+    color: hsl(228, 12%, 48%);
     font-family: "Montserrat", sans-serif;
     inline-size: 225px;
     overflow-wrap: break-word;
