@@ -13,16 +13,13 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link
-     rel="stylesheet"
-     href="https://fonts.google.com/specimen/Montserrat"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
 
-    <link 
-    rel="stylesheet"
-    href="https://fonts.google.com/specimen/Fraunces"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,400&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Product preview card component</title>
 
@@ -31,7 +28,20 @@
   <body>
 
     <div class="preview">
-      <img src="images/image-product-desktop.jpg" alt="Chanel Perfume" height="500"/>
+      <picture>
+        <source 
+          media="(min-width: 650px)"
+          class="desktop-image"
+          srcset="images/image-product-desktop.jpg">
+        <source 
+          media="(min-width: 465px)"
+          id="mobile-image"
+          srcset="images/image-product-mobile.jpg">
+        <img 
+          class="desktop-image"
+          src="images/image-product-desktop.jpg" 
+          alt="Chanel perfume">
+      </picture>
       <div class="text-class">
         <h1>P E R F U M E</h1>
   
